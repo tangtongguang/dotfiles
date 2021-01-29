@@ -1,3 +1,7 @@
+call plug#begin()
+Plug 'tpope/vim-sensible'
+Plug 'ludovicchabant/vim-gutentags'
+call plug#end()
 " Use the space key as our leader. Put this near the top of your vimrc
 let mapleader = "\<Space>"
 " Split edit your vimrc. Type space, v, r in sequence to trigger
