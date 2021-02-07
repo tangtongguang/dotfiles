@@ -21,10 +21,10 @@ let mapleader="\<Space>"
 "nmap <leader>co :! node %<cr>
 " Map to write file
 "nmap <C-s> :w<cr>
-nnoremap ; :
-nmap <leader>vr :sp $MYVIMRC<cr>
-nmap <leader>so :source $MYVIMRC<cr>
-imap jk <esc>
+"nnoremap ; :
+"nmap <leader>vr :sp $MYVIMRC<cr>
+"nmap <leader>so :source $MYVIMRC<cr>
+"imap jk <esc>
 "imap <C-s> <esc>:w<cr>
 "set number
 

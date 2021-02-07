@@ -1,0 +1,1 @@
+New-Item -ItemType SymbolicLink -P C:\Users\ttg\AppData\Local\nvim\init.vim -Target .\windows\init.vim
