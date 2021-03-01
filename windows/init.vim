@@ -1,5 +1,4 @@
 let g:python3_host_prog='C:\Python37\python.exe'
-
 call plug#begin()
 "Plug 'itchyny/lightline.vim'
 "Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -17,6 +16,15 @@ call plug#begin()
 "Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 let mapleader="\<Space>"
+nnoremap <leader>h :help 
+nnoremap <leader>r :vsplit $MYVIMRC<Enter>
+nnoremap <leader>s :source $MYVIMRC<Enter>
+
+nnoremap <A-k> <C-w>k 
+nnoremap <A-j> <C-w>j 
+nnoremap <A-h> <C-w>h 
+nnoremap <A-l> <C-w>l 
+nnoremap <A-p> :cnext<Enter>
 "nmap 0 ^
 "nmap <leader>co :! node %<cr>
 " Map to write file

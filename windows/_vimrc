@@ -1,1 +1,5 @@
 set number
+
+
+let g:mapleader = ' '
+nnoremap <leader>h :helpgrep<space>
